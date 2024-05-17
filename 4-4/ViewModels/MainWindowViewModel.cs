@@ -14,8 +14,8 @@ namespace _4_4.ViewModels
 
                 ];
             Blogs = [
-                new ("Title", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ipsum purus, tempor vitae vehicula vitae, ornare sit amet lacus. Vivamus dolor mauris,",["tag 1, tag 2"], "Kota Miura.jpg"),
-                new ("Title 2", "velit, a accumsan est auctor at. Aliquam erat volutpat. Pellentesque porttitor dolor enim, eget commodo ", ["tag 3, tag 4"], "Image2.jpg")
+                new ("Title", "amet, consectetur adipiscing elit. Vivamus ipsum purus, tempor vitae vehicula vitae, ornare sit amet lacus. Vivamus dolor mauris,",["tag 1, tag 2"]),
+                new ("Title 2", "a accumsan est auctor at. Aliquam erat volutpat. Pellentesque porttitor dolor enim, eget commodo ", ["tag 3, tag 4"])
                 ];
         }
         public List<News> News { get; set; }

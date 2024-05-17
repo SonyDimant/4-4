@@ -1,4 +1,6 @@
-﻿using ReactiveUI;
+﻿using Avalonia.Media.Imaging;
+using ReactiveUI;
+using System;
 using System.Diagnostics.Metrics;
 
 namespace _4_4.ViewModels
@@ -8,14 +10,14 @@ namespace _4_4.ViewModels
         public string Text { get; set; }
         public string Title { get; set; }
         public string[] Tags { get; set; }
-        public string Imagepath { get; set; }
+        //public string Imagepath {  get; set; }
 
-        public Blog(string title, string text, string[] tags, string image)
+        public Blog(string title, string text, string[] tags)
         {
             Title = title;
             Text = text;
             Tags = tags;
-            Imagepath = image;
+            //Imagepath = image;
         }
     }
 }
