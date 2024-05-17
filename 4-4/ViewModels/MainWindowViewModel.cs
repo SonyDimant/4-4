@@ -9,7 +9,7 @@ namespace _4_4.ViewModels
         {
             News =
             [
-                new ("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ipsum purus, tempor vitae vehicula vitae,", DateTime.Now),
+                new ("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ipsum purus, tempor vitae vehicula vitae,", DateTime.Now ),
                 new ("Vestibulum sagittis justo velit, a accumsan est auctor at. Aliquam erat volutpat. Pellentesque porttitor dolor enim, eget commodo nibh.", DateTime.Today)
 
                 ];
